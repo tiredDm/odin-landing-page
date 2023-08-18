@@ -70,3 +70,26 @@ button{
     height: 65px;
     border-radius: 5px;
 }
+
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-stack{
+    display: flex;
+    flex-direction: column;
+    flex-grow:0;
+    flex-shrink:1;
+    height: 350px;
+    width: 250px;
+}
