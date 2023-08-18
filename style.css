@@ -27,5 +27,46 @@ ul{
     color: #e5e7eb;
 }
 
+.hero{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #1f2937;
+}
 
+.landscape{
+    width: 500px;
+    height: 250px;
+    flex: 0 1 auto;
+}
 
+.lefthand{
+    width: 500px;
+    height: 250px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2{
+    color: #f9f9f8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.hero p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    flex: 0;
+    width: 100px;
+    height: 65px;
+    border-radius: 5px;
+}
