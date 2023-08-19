@@ -80,9 +80,10 @@ button{
 
 .img-container{
     display: flex;
-    gap: 80px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
+   
 }
 
 .img-stack{
@@ -92,4 +93,43 @@ button{
     flex-shrink:1;
     height: 350px;
     width: 250px;
+}
+
+.square{
+    width: 200px;
+    height:200px;
+    border-radius: 30px;
+}
+
+.random h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    align-self: center;
+    padding-left: auto;
+    
+}
+
+.toQuote{
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 400;
+}
+
+.author{
+    align-self: flex-end;
+}
+
+.quote-background{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
